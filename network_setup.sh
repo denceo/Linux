@@ -1,6 +1,5 @@
 usage() {
     echo "Usage: $0 <interface> <new_ip> <netmask> <gateway>"
-    echo "Example: $0 eth0 192.168.1.159 255.255.255.0 192.168.1.1"
 }
 
 backup_config() {
